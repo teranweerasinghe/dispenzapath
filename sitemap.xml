@@ -1,60 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- MAIN PAGES -->
   <url>
     <loc>https://dispenzapath.com/</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/roadmap.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/meditations.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/search.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/about.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/privacy.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/sitemap.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -62,49 +60,49 @@
   <!-- BLOG ARTICLES -->
   <url>
     <loc>https://dispenzapath.com/blog/where-to-start.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/morning-meditation-guide.html</loc>
-    <lastmod>2024-08-15</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/quantum-field-explained.html</loc>
-    <lastmod>2024-08-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/courses-comparison.html</loc>
-    <lastmod>2024-07-20</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/research-studies.html</loc>
-    <lastmod>2024-07-05</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/week-long-retreat.html</loc>
-    <lastmod>2024-06-18</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/breaking-habit-guide.html</loc>
-    <lastmod>2024-06-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/blog/heart-coherence-practice.html</loc>
-    <lastmod>2024-05-15</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -112,55 +110,55 @@
   <!-- CONCEPT PAGES -->
   <url>
     <loc>https://dispenzapath.com/concepts/thinking-feeling-loop.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/memorized-self.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/neuroplasticity.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/elevated-emotions.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/quantum-field.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/heart-coherence.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/theta-waves.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/energy-centers.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dispenzapath.com/concepts/epigenetics.html</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
