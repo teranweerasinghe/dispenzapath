@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search — Dispenza Path</title>
+<meta name="description" content="Search all Joe Dispenza guides, concept explanations, meditation guides, and articles on Dispenza Path.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dispenzapath.com/search.html">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.search-hero{background:var(--cream-dark);padding:56px 32px 40px;border-bottom:1px solid var(--border);}
+.search-hero-inner{max-width:640px;margin:0 auto;text-align:center;}
+.search-hero h1{font-family:var(--font-serif);font-size:32px;color:var(--ink);margin-bottom:20px;font-weight:700;}
+#result-count{font-size:13px;color:var(--muted);margin-top:16px;min-height:20px;}
+.suggestions{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:20px;}
+.suggestion-btn{font-size:11px;padding:6px 14px;border-radius:2px;border:1px solid var(--border-s);background:var(--white);color:var(--muted);cursor:pointer;font-family:var(--font-sans);transition:all 0.2s;}
+.suggestion-btn:hover{background:var(--ink);color:var(--gold-light);border-color:var(--ink);}
+</style>
+</head>
+<body>
+<div class="announce">New: <a href="blog/week-long-retreat.html">Week Long Retreat breakdown</a> — what to expect</div>
+<header>
+  <div class="header-inner">
+    <a class="logo" href="index.html">Dispenza<span>Path</span></a>
+    <nav class="nav-desktop">
+      <a href="concepts.html">Concepts</a><a href="roadmap.html">Roadmap</a>
+      <a href="meditations.html">Meditations</a><a href="blog.html">Articles</a>
+      <a href="about.html">About</a><a href="search.html" class="active">&#9906;</a>
+      <a href="roadmap.html" class="nav-cta">Start Here →</a>
+    </nav>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="nav-mobile" id="nav-mobile">
+    <a href="concepts.html">Concepts</a><a href="roadmap.html">Roadmap</a>
+    <a href="meditations.html">Meditations</a><a href="blog.html">Articles</a>
+    <a href="about.html">About</a><a href="roadmap.html">Start Here →</a>
+  </nav>
+</header>
+<nav class="breadcrumb-bar"><div class="breadcrumb"><ol>
+  <li><a href="index.html">Home</a></li>
+  <li>Search</li>
+</ol></div></nav>
+
+<main>
+<div class="search-hero">
+  <div class="search-hero-inner">
+    <h1>Search Dispenza Path</h1>
+    <div class="search-bar">
+      <label for="search-input" style="position:absolute;width:1px;height:1px;overflow:hidden">Search</label>
+      <input type="search" id="search-input" placeholder="Try: meditation, quantum field, beginner…" autocomplete="off" autofocus>
+      <button type="button" onclick="document.getElementById('search-input').dispatchEvent(new Event('input'))">Search</button>
+    </div>
+    <div id="result-count"></div>
+    <div class="suggestions">
+      <span style="font-size:11px;color:var(--muted);align-self:center;">Popular:</span>
+      <button class="suggestion-btn" onclick="setSearch('where to start')">where to start</button>
+      <button class="suggestion-btn" onclick="setSearch('morning meditation')">morning meditation</button>
+      <button class="suggestion-btn" onclick="setSearch('quantum field')">quantum field</button>
+      <button class="suggestion-btn" onclick="setSearch('pineal gland')">pineal gland</button>
+      <button class="suggestion-btn" onclick="setSearch('heart coherence')">heart coherence</button>
+      <button class="suggestion-btn" onclick="setSearch('theta waves')">theta waves</button>
+      <button class="suggestion-btn" onclick="setSearch('retreat')">retreat</button>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner">
+    <div id="search-results"></div>
+    <!-- Default state: show all content -->
+    <div id="default-content">
+      <div class="section-tag">Browse All Content</div>
+      <h2 class="section-title" style="font-size:24px;margin-bottom:28px;">All Articles & Guides</h2>
+      <div class="posts-grid">
+        <a class="post-card" href="blog/where-to-start.html"><div class="post-thumb bg1">I</div><div class="post-body"><div class="post-cat">Getting Started</div><h3>Where to Start with Joe Dispenza</h3><p>The complete beginner's roadmap — what to read, which meditation first, and in what order.</p><div class="post-meta"><time datetime="2024-09-01">Sep 2024</time><span class="post-read">12 min →</span></div></div></a>
+        <a class="post-card" href="blog/morning-meditation-guide.html"><div class="post-thumb bg2">II</div><div class="post-body"><div class="post-cat">Meditations</div><h3>Why the Morning Meditation Isn't Working</h3><p>Three common technical errors and exactly how to fix each one.</p><div class="post-meta"><time datetime="2024-08-15">Aug 2024</time><span class="post-read">9 min →</span></div></div></a>
+        <a class="post-card" href="blog/quantum-field-explained.html"><div class="post-thumb bg3">III</div><div class="post-body"><div class="post-cat">Concepts</div><h3>The Quantum Field Explained</h3><p>What Dispenza gets right, what's metaphorical, and how to engage practically.</p><div class="post-meta"><time datetime="2024-08-01">Aug 2024</time><span class="post-read">14 min →</span></div></div></a>
+        <a class="post-card" href="blog/courses-comparison.html"><div class="post-thumb bg4">IV</div><div class="post-body"><div class="post-cat">Courses</div><h3>Progressive Mind & Body vs. Rewired</h3><p>Side-by-side breakdown of both programs and who each is for.</p><div class="post-meta"><time datetime="2024-07-20">Jul 2024</time><span class="post-read">8 min →</span></div></div></a>
+        <a class="post-card" href="blog/research-studies.html"><div class="post-thumb bg5">V</div><div class="post-body"><div class="post-cat">Science</div><h3>What the Research Studies Actually Show</h3><p>Honest look at the EEG, immune marker, and gene expression studies.</p><div class="post-meta"><time datetime="2024-07-05">Jul 2024</time><span class="post-read">16 min →</span></div></div></a>
+        <a class="post-card" href="blog/week-long-retreat.html"><div class="post-thumb bg6">VI</div><div class="post-body"><div class="post-cat">Advanced</div><h3>Is the Week Long Retreat Worth It?</h3><p>What happens, who gets the most out of it, and how to prepare.</p><div class="post-meta"><time datetime="2024-06-18">Jun 2024</time><span class="post-read">11 min →</span></div></div></a>
+      </div>
+
+      <h2 class="section-title" style="font-size:24px;margin:48px 0 28px;">Core Concept Guides</h2>
+      <div class="concepts-grid">
+        <a class="concept-card" href="concepts/thinking-feeling-loop.html"><div class="concept-num">Concept 01</div><h3>The Thinking-Feeling Loop</h3><p>The self-perpetuating identity cycle — and how to break it.</p></a>
+        <a class="concept-card" href="concepts/memorized-self.html"><div class="concept-num">Concept 02</div><h3>The Memorized Self</h3><p>Why 95% of your personality is running on autopilot by age 35.</p></a>
+        <a class="concept-card" href="concepts/neuroplasticity.html"><div class="concept-num">Concept 03</div><h3>Neuroplasticity & Pruning</h3><p>The brain science behind why meditation actually works.</p></a>
+        <a class="concept-card" href="concepts/elevated-emotions.html"><div class="concept-num">Concept 04</div><h3>Elevated Emotions as Signal</h3><p>How gratitude, love, and joy function as biological change agents.</p></a>
+        <a class="concept-card" href="concepts/quantum-field.html"><div class="concept-num">Concept 05</div><h3>The Quantum Field</h3><p>The physics, the metaphysics, and the practical application.</p></a>
+        <a class="concept-card" href="concepts/heart-coherence.html"><div class="concept-num">Concept 06</div><h3>Heart Coherence</h3><p>HRV, the heart-brain axis, and how to enter coherence reliably.</p></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand"><a class="logo" href="index.html">Dispenza<span>Path</span></a><p>Independent resource. Not affiliated with Dr. Joe Dispenza.</p></div>
+    <div class="footer-col"><h4>Learn</h4><ul><li><a href="roadmap.html">Roadmap</a></li><li><a href="concepts.html">Concepts</a></li><li><a href="meditations.html">Meditations</a></li></ul></div>
+    <div class="footer-col"><h4>Content</h4><ul><li><a href="blog.html">All Articles</a></li><li><a href="index.html#faq">FAQ</a></li></ul></div>
+    <div class="footer-col"><h4>Site</h4><ul><li><a href="about.html">About</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="sitemap.html">Sitemap</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>© 2024 DispenzaPath</span><span>Not affiliated with Dr. Joe Dispenza.</span></div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+const ALL_POSTS = [
+  {title:"Where to Start with Joe Dispenza: The Complete Beginner's Roadmap",excerpt:"The complete beginner guide — what to read, which meditation first, and in what order to follow Dispenza's content.",category:"Getting Started",tags:["beginner","roadmap","start","meditation","books"],url:"blog/where-to-start.html",bg:"bg1",roman:"I",date:"Sep 2024",read:"12 min read"},
+  {title:"Why the Morning Meditation Isn't Working for You (And How to Fix It)",excerpt:"The three most common technical errors — posture, intention timing, and the difference between visualizing and feeling.",category:"Meditations",tags:["morning meditation","blessing energy centers","meditation tips","beginner"],url:"blog/morning-meditation-guide.html",bg:"bg2",roman:"II",date:"Aug 2024",read:"9 min read"},
+  {title:"The Quantum Field Explained Without the Pseudoscience Alarm",excerpt:"Separating what Dispenza gets right from legitimate quantum physics, what's metaphorical, and how to engage practically.",category:"Concepts",tags:["quantum field","physics","concepts","science","pseudoscience"],url:"blog/quantum-field-explained.html",bg:"bg3",roman:"III",date:"Aug 2024",read:"14 min read"},
+  {title:"Progressive Mind & Body vs. Rewired: Which Course to Do First",excerpt:"Side-by-side breakdown of both programs — price, time commitment, what each teaches, and who each is suited for.",category:"Courses",tags:["courses","rewired","gaia","progressive mind body","comparison"],url:"blog/courses-comparison.html",bg:"bg4",roman:"IV",date:"Jul 2024",read:"8 min read"},
+  {title:"What the Dispenza Research Studies Actually Show",excerpt:"Honest look at the published EEG, immune marker, and gene expression studies — methodology, limitations, significance.",category:"Science",tags:["research","science","EEG","studies","evidence","epigenetics"],url:"blog/research-studies.html",bg:"bg5",roman:"V",date:"Jul 2024",read:"16 min read"},
+  {title:"Is the Week Long Retreat Worth It? A Practical Cost-Benefit Analysis",excerpt:"What actually happens at a Week Long event, who gets the most out of it, who should wait, and how to prepare.",category:"Advanced",tags:["retreat","week long","live event","advanced","cost"],url:"blog/week-long-retreat.html",bg:"bg6",roman:"VI",date:"Jun 2024",read:"11 min read"},
+  {title:"Breaking the Habit of Being Yourself: Chapter-by-Chapter Reading Guide",excerpt:"Which chapters are essential, which are supplementary, and the exact passages to re-read twice before moving on.",category:"Getting Started",tags:["breaking the habit","book","chapter guide","reading","beginner"],url:"blog/breaking-habit-guide.html",bg:"bg7",roman:"VII",date:"Jun 2024",read:"10 min read"},
+  {title:"How to Practice Heart Coherence: A Step-by-Step Guide",excerpt:"The exact technique, how long to hold it, how to know if it's working, and how to integrate it with seated meditation.",category:"Meditations",tags:["heart coherence","HRV","meditation","technique","coherence"],url:"blog/heart-coherence-practice.html",bg:"bg8",roman:"VIII",date:"May 2024",read:"7 min read"},
+  {title:"The Thinking-Feeling Loop Explained",excerpt:"How your thoughts generate feelings and feelings reinforce thoughts — and how to interrupt the loop through meditation.",category:"Concepts",tags:["thinking feeling loop","identity","concepts","personality","emotions"],url:"concepts/thinking-feeling-loop.html",bg:"bg1",roman:"01",date:"2024",read:"8 min read"},
+  {title:"The Memorized Self: Why 95% of You Runs on Autopilot",excerpt:"The neuroscience behind automatic personality and how the subconscious mind maintains your current identity.",category:"Concepts",tags:["memorized self","subconscious","personality","identity","autopilot"],url:"concepts/memorized-self.html",bg:"bg2",roman:"02",date:"2024",read:"9 min read"},
+  {title:"Neuroplasticity & Synaptic Pruning Explained",excerpt:"How neurons that fire together wire together — and how meditation deliberately rewires old habitual circuits.",category:"Concepts",tags:["neuroplasticity","synaptic pruning","brain","neurons","science"],url:"concepts/neuroplasticity.html",bg:"bg3",roman:"03",date:"2024",read:"10 min read"},
+  {title:"Elevated Emotions as Electromagnetic Signal",excerpt:"Why gratitude, love, and joy function as biological change agents and how to generate them deliberately.",category:"Concepts",tags:["elevated emotions","gratitude","love","electromagnetic","epigenetics"],url:"concepts/elevated-emotions.html",bg:"bg4",roman:"04",date:"2024",read:"8 min read"},
+  {title:"Heart Coherence: The Science and Practice",excerpt:"HRV coherence, the heart-brain axis, and how to enter and sustain coherent states during meditation.",category:"Concepts",tags:["heart coherence","HRV","heart rate variability","coherence","biology"],url:"concepts/heart-coherence.html",bg:"bg5",roman:"06",date:"2024",read:"9 min read"},
+  {title:"Theta Brain Waves: The Gateway to the Subconscious",excerpt:"The hypnagogic state, 4-8 Hz theta waves, and how Dispenza's meditations deliberately slow your brain to access it.",category:"Concepts",tags:["theta waves","brain waves","theta","subconscious","sleep","meditation"],url:"concepts/theta-waves.html",bg:"bg6",roman:"07",date:"2024",read:"8 min read"},
+  {title:"Energy Centers (Chakras) in Dispenza's Framework",excerpt:"Each of the 8 energy centers explained — what domain they govern, what blockage looks like, and how the meditation works.",category:"Concepts",tags:["energy centers","chakras","blessing energy centers","meditation","body"],url:"concepts/energy-centers.html",bg:"bg7",roman:"08",date:"2024",read:"10 min read"},
+  {title:"Epigenetics & The Body as Mind",excerpt:"Why your genes are not your destiny and how thought-generated chemical environments switch gene expression on and off.",category:"Concepts",tags:["epigenetics","genes","gene expression","body","science","biology"],url:"concepts/epigenetics.html",bg:"bg8",roman:"09",date:"2024",read:"9 min read"},
+  {title:"Pineal Gland Meditation Guide",excerpt:"What it is, what it isn't, who it's for, and why most beginners should not start here.",category:"Meditations",tags:["pineal gland","advanced","meditation","DMT","third eye"],url:"meditations.html",bg:"bg1",roman:"↑",date:"2024",read:"5 min read"},
+];
+
+function setSearch(query) {
+  const input = document.getElementById('search-input');
+  input.value = query;
+  input.dispatchEvent(new Event('input'));
+  input.focus();
+}
+
+initSearch(ALL_POSTS);
+
+document.getElementById('search-input').addEventListener('input', function() {
+  const hasQuery = this.value.trim().length > 0;
+  document.getElementById('default-content').style.display = hasQuery ? 'none' : 'block';
+});
+</script>
+</body>
+</html>
